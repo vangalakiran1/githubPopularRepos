@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.heading {
+  font-family: 'Lobster';
+  margin-top: 30px;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repository-container {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  text-align: center;
+}
+.failure-img {
+  width: 90%;
+  max-width: 600px;
+}
